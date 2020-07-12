@@ -6,6 +6,7 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
         
         <bean id="student" class="com.spring.di.setter.Student">
+        	<!-- these properties will only pass when there is setter methods are present -->
         	<property name="studentName" value="Yaduveer"/>
         	<property name="age" value="6"/>
         	<property name="subjectStream" value="Pass"/>
